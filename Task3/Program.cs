@@ -10,8 +10,6 @@ if (!isNum)
     return;
 }
 
-//int day = Convert.ToInt32(Console.ReadLine());
-
 if (day < 1 || day > 7)
     Console.WriteLine("Нет такого дня недели");
 else
